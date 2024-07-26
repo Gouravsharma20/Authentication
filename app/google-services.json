@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240332745651",
+    "project_id": "signin-68195",
+    "storage_bucket": "signin-68195.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240332745651:android:c1678992009afa081139c6",
+        "android_client_info": {
+          "package_name": "wu.tutorials.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdL62a1Fu5v7BpZt1g3ZuEV6n922UfcEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
