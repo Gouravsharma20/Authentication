@@ -51,15 +51,14 @@ android {
 
 dependencies {
 
-    implementation (libs.com.google.firebase.firebase.perf.gradle.plugin)
-    implementation (libs.play.services.auth)
 
-    implementation (libs.androidx.lifecycle.viewmodel.compose)
-    implementation (libs.androidx.lifecycle.runtime.compose)
+    implementation (libs.firebase.auth.ktx)
+    implementation (libs.play.services.auth.v2041)
 
-
+    implementation (libs.androidx.lifecycle.viewmodel.compose.v260)
+    implementation (libs.androidx.lifecycle.runtime.compose.v260)
     implementation (libs.androidx.navigation.compose)
-    implementation (libs.coil.compose)
+    implementation (libs.coil.kt.coil.compose)
 
 
 

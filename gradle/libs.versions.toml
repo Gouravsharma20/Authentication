@@ -1,25 +1,35 @@
 [versions]
 agp = "8.5.1"
+coilCompose = "2.2.2"
 comGoogleFirebaseFirebasePerfGradlePlugin = "1.4.2"
+firebaseAuthKtx = "21.1.0"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
+lifecycleRuntimeCompose = "2.6.0"
 lifecycleRuntimeComposeVersion = "2.8.4"
 lifecycleRuntimeKtx = "2.8.3"
 activityCompose = "1.9.1"
 composeBom = "2024.04.01"
+lifecycleViewmodelCompose = "2.6.0"
 navigationComposeVersion = "2.5.3"
 playServicesAuth = "21.2.0"
+playServicesAuthVersion = "20.4.1"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeComposeVersion" }
+androidx-lifecycle-runtime-compose-v260 = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeCompose" }
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeComposeVersion" }
+androidx-lifecycle-viewmodel-compose-v260 = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
 coil-compose = { module = "io.coil-kt:coil-compose" }
-com-google-firebase-firebase-perf-gradle-plugin = { module = "com.google.firebase.firebase-perf:com.google.firebase.firebase-perf.gradle.plugin", version.ref = "comGoogleFirebaseFirebasePerfGradlePlugin" }
+coil-kt-coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+com-google-firebase-firebase-perf-gradle-plugin = { module = "com.google.firebase:**firebase-perf**", version.ref = "comGoogleFirebaseFirebasePerfGradlePlugin" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -34,6 +44,7 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-v2041 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
