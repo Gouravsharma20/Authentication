@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+
 }
 
 android {
@@ -79,3 +80,15 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
+//Apply the Google services plugin
+apply(plugin = "com.google.gms.google-services")
+
+
+// Project-level build.gradle.kts
+buildscript {
+    dependencies {
+        classpath(libs.google.services) // Or the latest version
+    }
+}
+
+

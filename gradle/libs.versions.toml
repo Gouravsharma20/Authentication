@@ -3,6 +3,7 @@ agp = "8.5.1"
 coilCompose = "2.2.2"
 comGoogleFirebaseFirebasePerfGradlePlugin = "1.4.2"
 firebaseAuthKtx = "21.1.0"
+googleServices = "4.4.2"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -30,6 +31,7 @@ coil-compose = { module = "io.coil-kt:coil-compose" }
 coil-kt-coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 com-google-firebase-firebase-perf-gradle-plugin = { module = "com.google.firebase:**firebase-perf**", version.ref = "comGoogleFirebaseFirebasePerfGradlePlugin" }
 firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
