@@ -51,8 +51,8 @@ class MainActivity : ComponentActivity() {
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background
                 ) {
                     val navController = rememberNavController()
-                    NavHost(navController = navController, startDestination = "Sign-in") {
-                        composable("Sign_in") {
+                    NavHost(navController = navController, startDestination = "sign_In") {
+                        composable("sign_In") {
                             val viewModel = viewModel<SignInViewModel>()
                             val state by viewModel.state.collectAsStateWithLifecycle()
 
